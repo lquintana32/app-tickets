@@ -1,6 +1,6 @@
 {% extends 'aplicacion/layout.html' %}
 {% block content %}
-<table class="table table-dark table-striped table-bordered border-secondary">
+<table id="example" class="table table-striped">
     <thead class="table-dark">
         <tr>
           <th scope="col">Ticket</th>
@@ -16,7 +16,7 @@
       <tbody class="table-group-divider">
         {% for ti in tickets %}
         <tr>
-          <th><a class="text-white" href="/cerrarticket/{{ti.ticket_id}}">{{ti}}</a></th>
+          <th><a href="/cerrarticket/{{ti.ticket_id}}">{{ti}}</a></th>
           <td>{{ti.user}}</td>
           <td>{{ti.category}}</td>
           <td>{{ti.content}}</td>
@@ -27,5 +27,17 @@
         </tr>
         {% endfor %}
       </tbody>
+      <tfoot class="table-dark">
+        <tr>
+          <th scope="col">Ticket</th>
+          <th scope="col">Usuario</th>
+          <th scope="col">Categoria</th>
+          <th scope="col">Descripcion</th>
+          <th scope="col">Fecha apertura</th>
+          <th scope="col">Estado</th>
+          <th scope="col">Solucion</th>
+          <th scope="col">Fecha cierre</th>
+        </tr>
+      </tfoot>
 </table>
 {% endblock %}

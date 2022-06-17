@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/* $(document).ready(function() {
     $('#sidebarCollapse').on('click', function() {
       $('#sidebar, #content').toggleClass('active');
       $('.collapse.in').toggleClass('in');
@@ -6,3 +6,6 @@ $(document).ready(function() {
       document.getElementById("bodyContent").style.width="100%";
     });
 });
+$(document).ready(function () {
+  $('#example').DataTable();
+}); */
