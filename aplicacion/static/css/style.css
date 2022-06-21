@@ -99,10 +99,10 @@
   #content {
       width: 100%;
       padding: 40px;
-      min-height: 100vh;
+      min-height: 92.5vh;
       transition: all 0.3s;
       margin-top: 70px;
-      background-color: #d9dce2;
+      background-color: #ffffff;
   }
   @media (max-width:800px) {
     #sidebar {
@@ -139,4 +139,7 @@ table {
 .count:before {
     counter-increment: section;
     content: counter(section);
+}
+html, body {
+  min-height: 100%;
 }
