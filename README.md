@@ -1,6 +1,6 @@
 # App Tickets
 
-![app.png](app.png)
+[![portada.png](https://i.postimg.cc/T1m1rH1r/portada.png)](https://postimg.cc/2LkCYG46)
 
 # Aplicación ticketería
 
