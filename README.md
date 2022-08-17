@@ -21,7 +21,7 @@ La aplicación trae un super usuario que será el encargado de administrar los u
 
 En el sector superior derecho encontraremos el botón para el Login. Utilizaremos las credenciales expuestas más arriba para el login y tendremos acceso a la vista de admin.
 
-[![vista-usuario.png](https://i.postimg.cc/nhnrD2JD/vista-usuario.png)](https://postimg.cc/JGdRwbtr)
+[![vista-admin.png](https://i.postimg.cc/3JXWN6Ph/vista-admin.png)](https://postimg.cc/fJbMgHzq)
 
 ### 3. Crear Usuario
 
